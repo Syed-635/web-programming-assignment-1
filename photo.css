@@ -1,0 +1,25 @@
+body{
+    background: black;
+    color: white;
+}
+.hero-section {
+    width: 100%;
+    overflow: hidden;
+    height: 50vh;
+}
+.photo__welcom h3{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery__item img{
+    width: 500px;
+    height: 500px;
+}

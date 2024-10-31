@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.Home {
+    height: 100vh;
+    background-image: url('images/NUT.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color :rgb(204, 0, 0);
+}
+
+.Home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.Home p {
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+
+.Plans {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Plans h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Diet {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.Diet:hover {
+    transform: translateY(-10px);
+}
+
+.Diet img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.DC-content {
+    padding: 20px;
+}
+
+.diet-card-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #a8ff8d;
+}
+
+.diet-card-content p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #d1d1d1;
+}
